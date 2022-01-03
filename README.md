@@ -1,2 +1,2 @@
 # AntiBurn
-spigot plugin for preventing item burns
+spigot plugin for preventing specific item destruction
