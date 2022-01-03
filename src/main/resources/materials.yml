@@ -1,0 +1,13 @@
+#list names must be a valid DamageCause or one of the 3 given placeholders
+#list contents must be bukkit material names
+
+#what items to prevent FIRE from destroying
+FIRE:
+
+#what items to prevent LAVA from destroying
+LAVA:
+
+#what items to prevent cactus or similar from destroying
+CONTACT:
+
+version: 1.0

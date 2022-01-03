@@ -1,0 +1,6 @@
+name: AntiBurn
+version: '${project.version}'
+main: io.github.dailystruggle.antiburn.AntiBurn
+api-version: 1.18
+authors: [ leaf26 ]
+description: prevent specific items from burning in fire and/or lava
