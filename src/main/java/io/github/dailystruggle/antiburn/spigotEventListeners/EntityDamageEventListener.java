@@ -17,13 +17,8 @@ public class EntityDamageEventListener implements Listener {
 
         EntityDamageEvent.DamageCause damageCause = event.getCause();
 
-        Bukkit.broadcastMessage("cause:" + damageCause.name());
-        Bukkit.broadcastMessage("material:" + item.getItemStack().getType().name());
-
-        Bukkit.broadcastMessage("contains damage cause - " + Materials.itemLists.containsKey(damageCause));
         if(!Materials.itemLists.containsKey(damageCause)) return;
 
-        Bukkit.broadcastMessage("contains material - " + Materials.itemLists.get(damageCause).contains(item.getItemStack().getType()));
         if(Materials.itemLists.get(damageCause).contains(item.getItemStack().getType())) event.setCancelled(true);
 
     }
